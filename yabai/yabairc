@@ -1,0 +1,40 @@
+# bsp, stack or float
+yabai -m config layout bsp
+
+yabai -m config window_placement second_child
+
+# borders
+yabai -m config active_window_border_color 0xffc67171
+yabai -m config window_border on
+yabai -m config window_border_width 3
+
+yabai -m config window_opacity off
+yabai -m config window_shadow float
+# set padding 
+yabai -m config top_padding 22
+yabai -m config bottom_padding 10
+yabai -m config left_padding 10
+yabai -m config right_padding 10
+yabai -m config window_gap 5
+
+# mouse settings
+
+yabai -m config mouse_follows_focus on
+# modifier for clicking and dragging with mouse
+yabai -m config mouse_modifier ctrl
+# set modifier + left-click drag to move window
+yabai -m config mouse_action1 move
+# set modifier + right-click drag to resize window
+yabai -m config mouse_action2 resize
+
+# when window is dropped in center of another window, swap them (on edges it will split it)
+yabai -m mouse_drop_action swap
+
+# disable specific apps
+yabai -m rule --add app="^System Settings$" manage=off
+yabai -m rule --add app="^Calculator$" manage=off
+yabai -m rule --add app="^Karabiner-Elements$" manage=off
+yabai -m rule --add app="^QuickTime Player$" manage=off
+
+
+
