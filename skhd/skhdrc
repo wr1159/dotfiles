@@ -1,4 +1,10 @@
-# Changing Window Focus
+# -- Open Apps --
+#
+ctrl + alt - v : open -a "Visual Studio Code - Insiders.app"
+ctrl + alt - a : open -a "Arc"
+ctrl + alt - t : open -a "iTerm"
+
+# -- Changing Window Focus --
 
 # change window focus within space
 alt - j : yabai -m window --focus south
@@ -74,14 +80,14 @@ shift + alt - 2 : yabai -m window --space 2;
 shift + alt - 3 : yabai -m window --space 3;
 shift + alt - 4 : yabai -m window --space 4;
 shift + alt - 5 : yabai -m window --space 5;
-# shift + alt - 6 : yabai -m window --space 6;
-# shift + alt - 7 : yabai -m window --space 7;
+shift + alt - 6 : yabai -m window --space 6;
+shift + alt - 7 : yabai -m window --space 7;
 
 # shift + cmd - left : yabai -m space --focus prev        # move left
 # shift + cmd - right : yabai -m space --focus next        # move right
 alt - x : yabai -m space --focus recent
 
 # stop/start/restart yabai
-ctrl + alt - q : brew services stop yabai
-ctrl + alt - s : brew services start yabai
-ctrl + alt - r : brew services restart yabai
+ctrl + alt - q : yabai --start-service
+ctrl + alt - s : yabai --stop-service
+ctrl + alt - r : yabai --restart-service
