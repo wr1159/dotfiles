@@ -1,0 +1,10 @@
+{
+  "window.commandCenter": 1,
+  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "window.newWindowProfile": "wr",
+  "remote.SSH.remotePlatform": {
+    "stampika-1": "linux"
+  },
+  "workbench.settings.applyToAllProfiles": ["claudeCode.selectedModel"],
+  "claudeCode.selectedModel": "default"
+}

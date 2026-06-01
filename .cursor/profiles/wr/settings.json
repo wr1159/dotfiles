@@ -1,0 +1,117 @@
+{
+  "workbench.colorTheme": "Gruvbox Dark Medium",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "[ruby]": {},
+  "editor.inlineSuggest.enabled": true,
+  "editor.lineNumbers": "relative",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "sql": false
+  },
+  "solidity.telemetry": false,
+  "solidity.packageDefaultDependenciesContractsDirectory": "",
+  "solidity.packageDefaultDependenciesDirectory": "node_modules",
+  "workbench.editorAssociations": {
+    "*.pdf": "default"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "notebook.output.scrolling": true,
+  "[sql]": {
+    "editor.defaultFormatter": "mtxr.sqltools"
+  },
+  "sqltools.format": {
+    "language": "db2"
+  },
+  "sqltools.formatLanguages": ["js"],
+  "go.lintTool": "golangci-lint",
+  "prisma.showPrismaDataPlatformNotification": false,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "gitlens.views.drafts.avatars": false,
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredDarkColorTheme": "Gruvbox Dark Hard",
+  "workbench.preferredLightColorTheme": "Gruvbox Light Hard",
+  "vim.useSystemClipboard": true,
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "terminal.integrated.env.osx": {},
+  "gitlens.views.commits.avatars": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "console-ninja.featureSet": "Community",
+  "editor.indentSize": "tabSize",
+  "githubPullRequests.pullBranch": "never",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "extensions.trustedPublishers": [
+    "astro-build",
+    "bradlc",
+    "bufbuild",
+    "craigmaslowski",
+    "dannymcgee",
+    "davidanson",
+    "eamodio",
+    "esbenp",
+    "formulahendry",
+    "golang",
+    "idleberg",
+    "inferrinizzard",
+    "jdinhlife",
+    "juanblanco",
+    "kamikillerto",
+    "luozhihao",
+    "misogi",
+    "mtxr",
+    "nomicfoundation",
+    "prisma",
+    "ransh",
+    "redhat",
+    "shopify",
+    "streetsidesoftware",
+    "techer",
+    "tomoki1207",
+    "tomphilbin",
+    "twxs",
+    "usernamehw",
+    "vscode-icons-team",
+    "vscodevim",
+    "wallabyjs",
+    "wayou",
+    "yzhang",
+    "zxh404"
+  ],
+  "[solidity]": {
+    "editor.defaultFormatter": "NomicFoundation.hardhat-solidity"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "editor.minimap.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "githubPullRequests.terminalLinksHandler": "github",
+  "python.venvPath": ".venv",
+  "python.languageServer": "None",
+  "claudeCode.preferredLocation": "sidebar",
+  "cursor.cpp.disabledLanguages": ["plaintext", "markdown", "scminput", "sql"]
+}

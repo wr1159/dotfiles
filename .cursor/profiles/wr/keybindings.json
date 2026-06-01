@@ -1,0 +1,49 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+cmd+shift+right",
+    "command": "workbench.action.terminal.focusNext"
+  },
+  {
+    "key": "ctrl+cmd+shift+left",
+    "command": "workbench.action.terminal.focusPrevious"
+  },
+  // {
+  //   "key": "ctrl+`",
+  //   "command": "workbench.action.terminal.focus",
+  //   "when": "!terminalFocus"
+  // },
+  // {
+  //   "key": "ctrl+`",
+  //   "command": "workbench.action.focusActiveEditorGroup",
+  //   "when": "terminalFocus"
+  // },
+  {
+    "key": "cmd+k cmd+p",
+    "command": "workbench.files.action.collapseExplorerFolders"
+  },
+  {
+    "key": "shift+alt+c",
+    "command": "references-view.showCallHierarchy",
+    "when": "editorHasCallHierarchyProvider"
+  },
+  {
+    "key": "shift+alt+h",
+    "command": "-references-view.showCallHierarchy",
+    "when": "editorHasCallHierarchyProvider"
+  },
+  {
+    "key": "cmd+k cmd+g",
+    "command": "git.openChange",
+    "when": "!isInDiffEditor"
+  },
+  {
+    "key": "cmd+k cmd+g",
+    "command": "git.openFile",
+    "when": "isInDiffEditor"
+  },
+  {
+    "key": "ctrl+shift+c",
+    "command": "workbench.view.extension.claude-sidebar"
+  }
+]
